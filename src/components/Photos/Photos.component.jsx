@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import { Button } from '@material-ui/core';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
-import PHOTOS_DATA from './Photos.data';
 import Photo from './Photo';
 import db from '../../firebase.utils/firebase';
 import { useStateValue } from '../../StateProvider/StateProvider';
